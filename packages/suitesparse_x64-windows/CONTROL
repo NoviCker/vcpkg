@@ -1,0 +1,9 @@
+Package: suitesparse
+Version: 5.8.0
+Port-Version: 1
+Depends: lapack, metis
+Architecture: x64-windows
+Multi-Arch: same
+Abi: b0562914e93c08d2ee5620945042701b2a01b69f08b98a309eb5818e292c5654
+Description: A suite of sparse matrix algorithms. Also provides libcxsparse.
+Type: Port

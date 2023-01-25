@@ -1,0 +1,9 @@
+Package: blas
+Version: 1
+Port-Version: 1
+Depends: openblas
+Architecture: x64-windows
+Multi-Arch: same
+Abi: ca04d06781ffa99baad2f6af8221055cdd68875d7986b8b120fd97ad813bc771
+Description: Metapackage for packages which provide BLAS
+Type: Port

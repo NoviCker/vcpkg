@@ -1,0 +1,4 @@
+CRTLinkage: dynamic
+LibraryLinkage: dynamic
+PolicyEmptyIncludeFolder: enabled
+PolicySkipDumpbinChecks: enabled

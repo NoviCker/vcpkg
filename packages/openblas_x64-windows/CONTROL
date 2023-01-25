@@ -1,0 +1,8 @@
+Package: openblas
+Version: 0.3.21
+Depends: openblas, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: fdae4e0d8b4dea747f9b191cba5c062343d6e462f0ac6b551c852e24898d59d9
+Description: OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version.
+Type: Port

@@ -1,0 +1,9 @@
+Package: gklib
+Version: 2022-07-27
+Port-Version: 2
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 6b4d11dd628f85b18c0b1c2080490935b397490130128e07ec5eeb0ae53bb3eb
+Description: General helper libraries for KarypisLab.
+Type: Port

@@ -1,0 +1,8 @@
+Package: metis
+Version: 2022-07-27
+Depends: gklib, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: eeffe196341b35b2cfc7a5103bec55e3fb6f4a26aa498583d80c77558ef15e94
+Description: Serial Graph Partitioning and Fill-reducing Matrix Ordering
+Type: Port

@@ -1,0 +1,8 @@
+Package: lapack
+Version: 2022-02-22
+Depends: lapack-reference
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 61789d9adee37b3a7b9645d5991a1940c7f60c19d6c3ad07ff3b0a3713b0ab24
+Description: Metapackage for packages which provide LAPACK
+Type: Port

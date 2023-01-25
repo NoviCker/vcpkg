@@ -1,0 +1,42 @@
+Package: freetype
+Version: 2.12.1
+Port-Version: 3
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: f4b8d2da0390e266b8387c4f34323fee9bf044f419d2c742e8681408bd2be09f
+Description: A library to render fonts.
+Type: Port
+Default-Features: brotli, bzip2, png, zlib
+
+Package: freetype
+Feature: brotli
+Depends: brotli
+Architecture: x64-windows
+Multi-Arch: same
+Description: Support decompression of WOFF2 streams
+Type: Port
+
+Package: freetype
+Feature: bzip2
+Depends: bzip2
+Architecture: x64-windows
+Multi-Arch: same
+Description: Support bzip2 compressed fonts.
+Type: Port
+
+Package: freetype
+Feature: png
+Depends: libpng
+Architecture: x64-windows
+Multi-Arch: same
+Description: Support PNG compressed OpenType embedded bitmaps.
+Type: Port
+
+Package: freetype
+Feature: zlib
+Depends: zlib
+Architecture: x64-windows
+Multi-Arch: same
+Description: Use zlib instead of internal library for DEFLATE
+Type: Port
